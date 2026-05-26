@@ -2,7 +2,7 @@ import { supabase } from './src/config/supabase.js';
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import linkRoutes from './src/routes/linkRoutes.js';
+import linkRoutes from './src/routes/LinkRoutes.js';
 import rateLimit from 'express-rate-limit';
 import { Redis } from '@upstash/redis'; 
 
