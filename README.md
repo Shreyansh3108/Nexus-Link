@@ -1,19 +1,19 @@
 # ⚡ NexusLink
 
 <div align="center">
-  <a href="(https://nexus-link-two.vercel.app/)" target="_blank">
-    <img src="[https://img.shields.io/badge/](https://img.shields.io/badge/)🔴_Live_Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Live Demo" />
+  <a href="https://nexus-link-two.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🔴_Live_Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Live Demo" />
   </a>
-  <img src="[https://img.shields.io/github/stars/Shreyansh3108/Nexus-Link?style=for-the-badge&color=yellow](https://img.shields.io/github/stars/Shreyansh3108/Nexus-Link?style=for-the-badge&color=yellow)" alt="Stars" />
-  <img src="[https://img.shields.io/github/forks/Shreyansh3108/Nexus-Link?style=for-the-badge&color=blue](https://img.shields.io/github/forks/Shreyansh3108/Nexus-Link?style=for-the-badge&color=blue)" alt="Forks" />
-  <img src="[https://img.shields.io/github/license/Shreyansh3108/Nexus-Link?style=for-the-badge&color=green](https://img.shields.io/github/license/Shreyansh3108/Nexus-Link?style=for-the-badge&color=green)" alt="License" />
+  <img src="https://img.shields.io/github/stars/Shreyansh3108/Nexus-Link?style=for-the-badge&color=yellow" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/Shreyansh3108/Nexus-Link?style=for-the-badge&color=blue" alt="Forks" />
+  <img src="https://img.shields.io/github/license/Shreyansh3108/Nexus-Link?style=for-the-badge&color=green" alt="License" />
 </div>
 
 <br />
 
 **NexusLink** is a high-performance, edge-cached URL shortener built for developers. It features secure custom aliases, real-time analytics polling, and a highly optimized backend infrastructure designed to minimize P99 latency using Redis caching.
 
-##  Architecture & System Design
+## 🚀 Architecture & System Design
 
 The core philosophy behind NexusLink is **speed and scale**. To prevent database bottlenecks during high-traffic redirects, the system implements a distributed caching strategy.
 
@@ -53,44 +53,5 @@ To run this project locally, you will need Node.js installed. The project is str
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Shreyansh3108/Nexus-Link.git
+git clone [https://github.com/Shreyansh3108/Nexus-Link.git](https://github.com/Shreyansh3108/Nexus-Link.git)
 cd Nexus-Link
-```
-
-### 2. Setup the Backend Engine
-```bash
-cd nexuslink-backend
-npm install
-```
-
-Create a `.env` file in the `nexuslink-backend` directory and add your keys:
-```env
-PORT=3000
-SUPABASE_URL=your_supabase_url
-SUPABASE_ANON_KEY=your_supabase_key
-UPSTASH_REDIS_REST_URL=your_upstash_url
-UPSTASH_REDIS_REST_TOKEN=your_upstash_token
-API_KEY=your_custom_secret_key
-```
-
-Start the backend server:
-```bash
-node server.js
-```
-
-### 3. Setup the Frontend Dashboard
-Open a new terminal window and navigate to the frontend folder:
-```bash
-cd nexuslink-frontend
-npm install
-```
-
-Start the Next.js development server:
-```bash
-npm run dev
-```
-
-Open `http://localhost:3001` in your browser to view the application.
-
----
-> Designed and built for the modern web.
