@@ -15,6 +15,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.106.2",
     "@upstash/redis": "^1.38.0",
+    "dotenv": "^17.4.2",
     "express-rate-limit": "^8.5.2"
   }
 }
