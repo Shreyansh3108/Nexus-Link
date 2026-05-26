@@ -13,7 +13,7 @@
 
 **NexusLink** is a high-performance, edge-cached URL shortener built for developers. It features secure custom aliases, real-time analytics polling, and a highly optimized backend infrastructure designed to minimize P99 latency using Redis caching.
 
-## 🚀 Architecture & System Design
+##  Architecture & System Design
 
 The core philosophy behind NexusLink is **speed and scale**. To prevent database bottlenecks during high-traffic redirects, the system implements a distributed caching strategy.
 
@@ -31,7 +31,7 @@ The core philosophy behind NexusLink is **speed and scale**. To prevent database
 * **API Security:** Backend routes are protected via custom header-based API keys (`x-api-key`) to prevent unauthorized scraping or link generation.
 * **Glassmorphism UI:** A highly polished, responsive frontend built with Tailwind CSS, Framer Motion, and Aceternity UI components.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Frontend:**
 * [Next.js](https://nextjs.org/) (App Router)
